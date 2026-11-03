@@ -1,0 +1,14 @@
+Stockfish integration notice
+============================
+
+Evalia does not bundle a Stockfish executable in this source ZIP.
+On Windows, when the user starts an engine analysis and no local engine is configured,
+Evalia downloads the current stable Windows x64 release from the official Stockfish
+GitHub repository and stores it locally under engine/stockfish.exe.
+
+Project/source: https://github.com/official-stockfish/Stockfish
+License: GNU General Public License v3 (GPL-3.0)
+
+If you redistribute Stockfish binaries together with another product, review and comply
+with the Stockfish/GPL distribution requirements and provide the corresponding notices
+and source as required by that license.

@@ -1,0 +1,25 @@
+name: Windows portable release
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+          cache: maven
+      - name: Test and build portable app
+        shell: cmd
+        run: build-windows-portable.bat
+      - name: Zip portable app
+        shell: powershell
+        run: Compress-Archive -Path dist/Evalia/* -DestinationPath dist/Evalia-Windows-Portable.zip -Force
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Evalia-Windows-Portable
+          path: dist/Evalia-Windows-Portable.zip

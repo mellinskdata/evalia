@@ -1,3 +1,24 @@
+# EVALIA — Chess Analysis Platform
+
+**See beyond the moves.**
+
+A Java 17 / JavaFX desktop application for chess game review and player-performance analysis. Evalia supports public Chess.com and Lichess account synchronization, PGN import, offline opening references, game replay, player insights, and Stockfish-powered move analysis.
+
+**Tech stack:** Java, JavaFX, CSS, Maven, JUnit 5, Stockfish (UCI), Jackson, and public Chess.com/Lichess APIs.
+
+**Quick start**
+
+```bash
+mvn clean test
+mvn javafx:run
+```
+
+Requires JDK 17+ and Maven 3.9+. The application runs on Windows, Linux and macOS; automatic Stockfish download is supported on Windows, with manual engine configuration for other platforms. Windows packaging scripts are included.
+
+**Project status:** v2.1 — source distribution. See the detailed documentation in Portuguese below. Build and runtime behavior should be verified in your local environment; this repository does not contain an embedded Stockfish binary.
+
+---
+
 # Evalia 2.1
 
 **See beyond the moves.**

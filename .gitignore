@@ -1,5 +1,23 @@
+# Java / Maven
 /target/
-/.idea/
-/*.iml
-/data/games.csv
-/data/accounts.properties
+*.class
+*.log
+*.iml
+.idea/
+.vscode/
+.settings/
+.classpath
+.project
+
+# Generated distribution and runtime
+/dist/
+/runtime/
+/engine/
+/data/
+*.exe
+*.msi
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
