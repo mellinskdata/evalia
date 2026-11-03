@@ -1,0 +1,9 @@
+EVALIA 2.1 - UM CLIQUE v3 (reconstruido)
+
+1. Extraia TODO o ZIP para uma pasta.
+2. Mantenha a internet conectada na primeira execucao.
+3. Abra INICIAR-EVALIA.cmd.
+
+O inicializador prepara automaticamente um JDK 17 completo e Maven privados dentro da pasta do Evalia quando necessario. Nao e preciso configurar JAVA_HOME ou PATH manualmente.
+
+Na primeira vez em que voce usar uma analise Stockfish/Game Review no Windows, o proprio Evalia baixa e configura a release estavel oficial automaticamente. Voce nao precisa baixar a engine por conta propria.
