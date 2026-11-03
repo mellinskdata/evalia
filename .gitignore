@@ -1,0 +1,23 @@
+# Java / Maven
+/target/
+*.class
+*.log
+*.iml
+.idea/
+.vscode/
+.settings/
+.classpath
+.project
+
+# Runtime and generated artifacts
+/dist/
+/runtime/
+/engine/
+/data/
+*.exe
+*.msi
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
